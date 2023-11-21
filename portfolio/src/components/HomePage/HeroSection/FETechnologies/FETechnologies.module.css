@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.container > div {
+  font-size: 1.4rem;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 1rem;
+  gap: 0.25rem;
+  position: relative;
+
+  font-weight: bold;
+  color: var(--dark_black);
+  background-color: #eee;
+}
+
+.container > div > svg {
+  position: absolute;
+  bottom: 100%;
+  font-size: 2rem;
+  animation: float 1s ease-in-out infinite alternate-reverse;
+  will-change: transform;
+}
+
+@keyframes float {
+  from {
+    transform: translateY(-0.5rem);
+  }
+  to {
+    transform: translateY(-0.75rem);
+  }
+}

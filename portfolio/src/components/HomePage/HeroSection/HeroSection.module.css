@@ -1,0 +1,58 @@
+/* .container {
+  outline: 1px solid red;
+} */
+
+.container {
+  padding: 1rem 6rem;
+  padding-top: 8rem;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(90vh - 8rem - 1rem);
+  gap: 2rem;
+}
+
+.sub_container {
+  display: inline;
+}
+
+.my_name_is {
+  font-size: 1.2rem;
+  color: gray;
+  color: var(--soft_black);
+  font-weight: 500;
+  margin: 0;
+}
+
+.title {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.i_make {
+  color: var(--soft_black);
+  /* font-weight: 500; */
+  font-size: 1.2rem;
+}
+
+.hire_me_back_image_container {
+  display: flex;
+  /* margin-bottom: 4rem; */
+}
+
+.f_e_technologies {
+  /* margin-bottom: 8rem; */
+}
+
+.back_image {
+  /* position: absolute;
+  font-size: 20rem;
+  top: 0;
+  right: 0; */
+  position: absolute;
+  font-size: 20rem;
+  top: 0;
+  right: 0;
+}

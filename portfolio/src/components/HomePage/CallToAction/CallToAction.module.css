@@ -1,0 +1,16 @@
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lets_talk {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.social {
+  padding: 2rem;
+}

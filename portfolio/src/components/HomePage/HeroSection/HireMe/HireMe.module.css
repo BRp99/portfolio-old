@@ -1,0 +1,57 @@
+/* .hire_me_btn {
+  font-size: 0.9em;
+  color: var(--white);
+  background-color: var(--super_dark_oranged);
+  padding: 10px 30px;
+  border: 1px solid var(--super_dark_oranged);
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.call_to_action {
+  padding: 20px 30px;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  background-color: var(--super_dark_oranged);
+}
+
+.call_to_action_hover {
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark_oranged);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleY(0);
+  transform-origin: top center;
+  transition: transform 0.3s;
+  border-radius: 5px;
+}
+
+.call_to_action:hover .call_to_action_hover {
+  transform: scaleY(1);
+  transform-origin: bottom center;
+  border-radius: 5px;
+}
+
+.text {
+  width: 100%;
+  color: var(--white);
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: relative;
+  transition: color 0.2s;
+}
+
+.call_to_action:hover .text {
+  color: var(--dark_black);
+  border-radius: 5px;
+}
