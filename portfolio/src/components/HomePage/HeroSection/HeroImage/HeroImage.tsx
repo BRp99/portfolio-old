@@ -1,13 +1,8 @@
-import styles from "./BackImage.module.css"
+import styles from "./HeroImage.module.css"
 
-export default function BackImage() {
+export default function HeroImage() {
   return <div className={styles.container}> {inkscapeIcon} </div>
 }
-
-// var path = document.querySelector(".inkscape")
-// var length = path.getTotalLength()
-
-// console.log(length)
 
 const inkscapeIcon = (
   <svg height="2em" version="1.1" viewBox="0 0 791 881" xmlns="http://www.w3.org/2000/svg">

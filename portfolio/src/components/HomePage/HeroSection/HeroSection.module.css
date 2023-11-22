@@ -1,7 +1,3 @@
-/* .container {
-  outline: 1px solid red;
-} */
-
 .container {
   padding: 1rem 6rem;
   padding-top: 8rem;
@@ -20,7 +16,7 @@
 
 .my_name_is {
   font-size: 1.2rem;
-  color: gray;
+  color: var(--grey);
   color: var(--soft_black);
   font-weight: 500;
   margin: 0;
@@ -33,24 +29,39 @@
 
 .i_make {
   color: var(--soft_black);
-  /* font-weight: 500; */
   font-size: 1.2rem;
 }
 
-.hire_me_back_image_container {
+.scrool_down {
+  margin-top: 2rem;
+  background-color: var(--white);
+  color: var(--dark_black);
+  border-radius: 10rem;
+  width: 130px;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid var(--dark_black);
+  box-shadow: 0 0 0 0 var(--dark_black);
   display: flex;
-  /* margin-bottom: 4rem; */
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.f_e_technologies {
-  /* margin-bottom: 8rem; */
+.scrool_down:hover {
+  transform: translateY(-4px) translateX(-2px);
+  box-shadow: 2px 5px 0 0 var(--dark_black);
+}
+
+.scrool_down:active {
+  transform: translateY(2px) translateX(1px);
+  box-shadow: 0 0 0 0 var(--dark_black);
 }
 
 .back_image {
-  /* position: absolute;
-  font-size: 20rem;
-  top: 0;
-  right: 0; */
   position: absolute;
   font-size: 20rem;
   top: 0;
