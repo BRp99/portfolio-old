@@ -1,8 +1,0 @@
-.container {
-  padding-bottom: 4rem;
-}
-
-.container > div {
-  display: flex;
-  justify-content: space-between;
-}

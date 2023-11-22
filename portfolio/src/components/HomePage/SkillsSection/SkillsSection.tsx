@@ -1,15 +1,21 @@
-import styles from "./FETechnologies.module.css"
+import styles from "./SkillsSection.module.css"
 
-export default function FETechnologies() {
+export default function SkillsSection() {
   return (
     <div className={styles.container}>
-      <div className={styles.react}>{reactIcon} React JS</div>
-      <div className={styles.ts}>{TSIcon} Typescript</div>
-      <div className={styles.css}>{cssIcon} CSS3</div>
-      <div className={styles.html}>{htmlIcon} HTML5</div>
-      <div className={styles.inkscape}>{inkscapeIcon} Inkscape</div>
-
-      <div className={styles.html}>{horseIcon} Horseback Riding</div>
+      <h2 className={styles.title}>Skills</h2>
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam doloribus voluptates rerum quos tenetur odio, ullam quod fugiat perspiciatis.
+        Laboriosam, quo deserunt. Incidunt error odit a nisi, aperiam ducimus doloribus.
+      </div>
+      <div className={styles.skills}>
+        <div>{reactIcon} React JS</div>
+        <div>{TSIcon} Typescript</div>
+        <div>{cssIcon} CSS3</div>
+        <div>{htmlIcon} HTML5</div>
+        <div>{inkscapeIcon} Inkscape</div>
+        <div>{horseIcon} Horseback Riding</div>
+      </div>
     </div>
   )
 }

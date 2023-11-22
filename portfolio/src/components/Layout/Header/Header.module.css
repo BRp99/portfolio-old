@@ -1,5 +1,5 @@
 .container {
-  padding: 1rem 6rem;
+  padding: 0.5rem 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,8 +8,9 @@
   z-index: 2;
   left: 0;
   right: 0;
-  background-color: var(--white);
-  /* backdrop-filter: blur(10px); */
+  /* background-color: var(--white); */
+  backdrop-filter: blur(10px);
+  background-color: var(--header-background-color);
 }
 
 .logoIcon {
@@ -18,8 +19,10 @@
 
 .logo {
   font-size: 1.5rem;
-  color: white;
-  background-color: black;
+
+  color: var(--text-color);
+  background-color: var(--background-color);
+  filter: invert(1);
   border-radius: 50%;
   width: 3rem;
   height: 3rem;
@@ -27,4 +30,16 @@
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  rotate: -20deg;
+  transition: rotate 0.1s ease-out;
+}
+
+.logo:hover {
+  rotate: -5deg;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
 }

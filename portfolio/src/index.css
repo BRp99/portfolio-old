@@ -1,19 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab&display=swap");
 :root {
-  --super_dark_oranged: #ff5a02;
+  /* Tier 1 - Definitions */
+  /* --super_dark_oranged: #ff5a02; */
+  --super_dark_oranged: #0ae448;
   --dark_oranged: #fa6901;
   --soft_oranged: #ff8e3d;
 
   --grey: #dedfde;
   --white: #ffffff;
+  --border-radius: 5px;
 
   --dark_black: #040405;
   --soft_black: #0a0b0b;
+
+  --font-size-small: 0.8rem;
+  --font-size-regular: 1rem;
+  --font-size-medium: 1.1rem;
+  --font-size-large: 1.5rem;
+
+  /* Tier 2 - Color abstractions */
+  --primary-color: var(--super_dark_oranged);
+  --secondary-color: var(--dark_oranged);
+
+  /* Dark mode colors */
+  --background-color-dark: var(--dark_black);
+  --background2-color-dark: hsl(180, 5%, 8%);
+  --text-color-dark: var(--white);
+  --header-background-color-dark: hsla(240, 11%, 2%, 0.5);
+
+  /* Light mode colors */
+  --background-color-light: var(--white);
+  --background2-color-light: #f4f4f4;
+  --text-color-light: var(--dark_black);
+  --header-background-color-light: hsla(0, 0%, 100%, 0.5);
+
+  /* Tier 3 - Object abstraction */
+  --button-color: var(--dark_oranged);
+  --text-color: var(--dark_black);
+  --selection-color: var(--dark_oranged);
+  --h1-font-size: var(--font-size-large);
+  --background-color: var(--background-color-light);
+  --background2-color: var(--background2-color-light);
 }
 
 * {
-  font-family: "Jura", system-ui, sans-serif;
+  font-family: "Roboto Slab", system-ui, sans-serif;
 }
 
 html {
@@ -22,6 +54,9 @@ html {
 
 body {
   margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.1s ease-out, color 0.1s ease-out;
 }
 
 a {
@@ -29,6 +64,15 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", system-ui, sans-serif;
+}
+
 ::selection {
-  background-color: var(--soft_oranged);
+  background-color: var(--selection-color);
 }

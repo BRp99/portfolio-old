@@ -1,2 +1,9 @@
 .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > *:nth-child(even) {
+  transition: background-color 0.1s ease-out;
+  background-color: var(--background2-color);
 }

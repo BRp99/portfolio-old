@@ -1,5 +1,7 @@
 .container {
-  margin: 1rem 6rem;
+  margin: 2rem 0;
+  /* padding: 1rem; */
+  /* background-color: red; */
 }
 
 .text {

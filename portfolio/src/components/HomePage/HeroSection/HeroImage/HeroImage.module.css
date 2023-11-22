@@ -1,13 +1,45 @@
-.inkscape {
-  /* stroke-dasharray: 100;
-  animation: dash 5s linear; */
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: dash 5s linear forwards;
+.container > svg {
+  height: calc(100vh - 6rem);
+  stroke: #aaa;
+  stroke-width: 1;
+  position: absolute;
+  font-size: 20rem;
+  bottom: 0;
+  right: 0;
 }
 
-@keyframes dash {
+.container > svg > path {
+  stroke-dasharray: 3000;
+  stroke-dashoffset: 3000;
+  animation: draw 10s ease-in forwards;
+}
+
+@keyframes draw {
   to {
     stroke-dashoffset: 0;
+  }
+}
+
+.shadow > svg {
+  position: absolute;
+  stroke: #aaa;
+  stroke-width: 2;
+  filter: blur(5px);
+  font-size: 20rem;
+  bottom: 0;
+  right: 0rem;
+  height: calc(100vh - 6rem);
+}
+
+.shadow > svg > path {
+  animation: appear 1s 10s ease-out forwards;
+  opacity: 0;
+  transform: translateX(0rem);
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+    transform: translateX(0.25rem);
   }
 }

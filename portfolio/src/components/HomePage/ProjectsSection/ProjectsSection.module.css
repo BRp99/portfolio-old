@@ -1,0 +1,19 @@
+.container {
+  padding: 8rem 6rem;
+  padding-top: 8rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.projects > *:nth-child(even) {
+  flex-direction: row-reverse;
+}

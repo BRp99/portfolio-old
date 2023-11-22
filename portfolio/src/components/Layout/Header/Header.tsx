@@ -1,5 +1,6 @@
 import styles from "./Header.module.css"
 import Navigation from "./Navigation/Navigation"
+import Theme from "./Theme/Theme"
 
 export default function Header() {
   return (
@@ -7,7 +8,10 @@ export default function Header() {
       <a href="#hero-section" className={styles.logo}>
         BP
       </a>
-      <Navigation />
+      <div className={styles.right}>
+        <Theme />
+        <Navigation />
+      </div>
     </div>
   )
 }

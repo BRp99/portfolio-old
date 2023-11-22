@@ -1,0 +1,26 @@
+.container {
+  color: gray;
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(1rem);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+}

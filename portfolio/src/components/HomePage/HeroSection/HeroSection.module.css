@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: calc(90vh - 8rem - 1rem);
+  height: calc(100vh - 8rem - 1rem);
   gap: 2rem;
 }
 
@@ -14,10 +14,8 @@
   display: inline;
 }
 
-.my_name_is {
+.greeting {
   font-size: 1.2rem;
-  color: var(--grey);
-  color: var(--soft_black);
   font-weight: 500;
   margin: 0;
 }
@@ -31,7 +29,25 @@
   color: var(--soft_black);
   font-size: 1.2rem;
 }
+/* jjjjjjjjjj */
+.container > div > svg {
+  position: absolute;
+  bottom: 100%;
+  font-size: 2rem;
+  animation: float 1s ease-in-out infinite alternate-reverse;
+  will-change: transform;
+}
 
+@keyframes float {
+  from {
+    transform: translateY(-0.5rem);
+  }
+  to {
+    transform: translateY(-0.75rem);
+  }
+}
+
+/* jjjjjjjjjjjjjjjjjjjjjjjjjjj */
 .scrool_down {
   margin-top: 2rem;
   background-color: var(--white);
@@ -59,11 +75,4 @@
 .scrool_down:active {
   transform: translateY(2px) translateX(1px);
   box-shadow: 0 0 0 0 var(--dark_black);
-}
-
-.back_image {
-  position: absolute;
-  font-size: 20rem;
-  top: 0;
-  right: 0;
 }
