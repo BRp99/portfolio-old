@@ -5,7 +5,9 @@ export default function Navigation() {
     <div className={styles.container}>
       <a href="#hero-section">About Me</a>
       <a href="#projects">Projects</a>
-      <a href="#call-to-action">Contact Me</a>
+      <a className={styles.contact_me} href="#call-to-action">
+        Contact Me
+      </a>
     </div>
   )
 }
