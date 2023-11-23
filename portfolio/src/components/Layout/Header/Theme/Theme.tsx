@@ -1,7 +1,9 @@
 import { useState } from "react"
+import styles from "./Theme.module.css"
 
 export default function Theme() {
   const [darkMode, setDarkMode] = useState(false)
+
   function onClick() {
     if (darkMode) {
       // Switch to light mode
@@ -23,5 +25,19 @@ export default function Theme() {
     setDarkMode((s) => !s)
   }
 
-  return <button onClick={onClick}>{darkMode ? "Dark" : "Light"}</button>
+  return (
+    // <label className={styles.switch}>
+    //   <input type="checkbox" checked={darkMode} onChange={onClick} />
+    //   <span className={styles.slider}></span>
+    //   <span className={`${styles.text} on ${darkMode ? styles.active : ""}`}>On</span>
+    //   <span className={`${styles.text} off ${!darkMode ? styles.active : ""}`}>Off</span>
+    // </label>
+    <div className={styles.wrapper}>
+      <input type="checkbox" checked={!darkMode} onChange={onClick} name="checkbox" className={styles.switch} />
+    </div>
+  )
+}
+
+{
+  /* <button onClick={onClick}>{darkMode ? "Dark" : "Light"}</button> */
 }

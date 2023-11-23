@@ -1,3 +1,4 @@
+import CallToAction from "../../../HomePage/HeroSection/CallToAction/CallToAction"
 import styles from "./Navigation.module.css"
 
 export default function Navigation() {
@@ -9,10 +10,11 @@ export default function Navigation() {
         Contact Me
       </a> */}
 
-      <a href="#call-to-action" className={styles.call_to_action}>
+      {/* <a href="#call-to-action" className={styles.call_to_action}>
         <div className={styles.call_to_action_hover}></div>
         <span className={styles.text}>Contact Me</span>
-      </a>
+      </a> */}
+      <CallToAction context="Contact Me" />
     </div>
   )
 }

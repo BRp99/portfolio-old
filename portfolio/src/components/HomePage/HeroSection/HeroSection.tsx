@@ -1,7 +1,7 @@
 import HeroImage from "./HeroImage/HeroImage"
 import styles from "./HeroSection.module.css"
 import DownArrow from "./DownArrow/DownArrow"
-import GetInTouch from "./GetInTouch/GetInTouch"
+import CallToAction from "./CallToAction/CallToAction"
 
 export default function HeroSection() {
   return (
@@ -12,7 +12,7 @@ export default function HeroSection() {
           <h1 className={styles.title}>Frontend Developer</h1>
         </div>
         <div className={styles.hire_me}>
-          <GetInTouch />
+          <CallToAction context="Get in Touch" />
         </div>
       </div>
       <HeroImage />
