@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab&display=swap");
+
 :root {
   /* Tier 1 - Definitions */
   /* --super_dark_oranged: #ff5a02; */
@@ -31,14 +32,14 @@
 
   /* Light mode colors */
   --background-color-light: var(--white);
-  --background2-color-light: #f4f4f4;
+  --background2-color-light: #f2f2f2;
   --text-color-light: var(--dark_black);
   --header-background-color-light: hsla(0, 0%, 100%, 0.5);
 
   /* Tier 3 - Object abstraction */
   --button-color: var(--dark_oranged);
   --text-color: var(--dark_black);
-  --selection-color: var(--dark_oranged);
+  --selection-color: var(--super_dark_oranged);
   --h1-font-size: var(--font-size-large);
   --background-color: var(--background-color-light);
   --background2-color: var(--background2-color-light);
@@ -66,10 +67,7 @@ a {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: "Playfair Display", system-ui, sans-serif;
 }
 

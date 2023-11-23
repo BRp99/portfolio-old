@@ -20,13 +20,18 @@
   text-decoration: none;
   display: inline-block;
   position: relative;
-  background-color: var(--super_dark_oranged);
+  /* background-color: var(--super_dark_oranged); */
+  background: linear-gradient(160deg, #0ae448 50%, #0085d0 110%);
+
+  box-shadow: 0 0 5px gray;
 }
 
 .call_to_action_hover {
   width: 100%;
   height: 100%;
-  background-color: var(--dark_oranged);
+  /* background-color: var(--dark_oranged); */
+  background-color: var(--super_dark_oranged);
+
   position: absolute;
   top: 0;
   left: 0;
@@ -44,15 +49,14 @@
 
 .text {
   width: 100%;
-  color: var(--white);
-
-  font-weight: bold;
-  letter-spacing: 1px;
+  color: var(--dark_black);
+  /* font-weight: bold; */
+  /* letter-spacing: 1px; */
   position: relative;
   transition: color 0.2s;
 }
 
 .call_to_action:hover .text {
-  color: var(--dark_black);
+  color: var(--white);
   border-radius: 5px;
 }

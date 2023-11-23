@@ -29,25 +29,7 @@
   color: var(--soft_black);
   font-size: 1.2rem;
 }
-/* jjjjjjjjjj */
-.container > div > svg {
-  position: absolute;
-  bottom: 100%;
-  font-size: 2rem;
-  animation: float 1s ease-in-out infinite alternate-reverse;
-  will-change: transform;
-}
 
-@keyframes float {
-  from {
-    transform: translateY(-0.5rem);
-  }
-  to {
-    transform: translateY(-0.75rem);
-  }
-}
-
-/* jjjjjjjjjjjjjjjjjjjjjjjjjjj */
 .scrool_down {
   margin-top: 2rem;
   background-color: var(--white);
