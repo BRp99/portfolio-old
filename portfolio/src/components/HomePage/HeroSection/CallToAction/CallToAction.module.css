@@ -31,7 +31,6 @@
   height: 100%;
   /* background-color: var(--dark_oranged); */
   background-color: var(--super_dark_oranged);
-
   position: absolute;
   top: 0;
   left: 0;
@@ -49,9 +48,6 @@
 
 .text {
   width: 100%;
-  color: var(--dark_black);
-  /* font-weight: bold; */
-  /* letter-spacing: 1px; */
   position: relative;
   transition: color 0.2s;
 }
@@ -59,4 +55,14 @@
 .call_to_action:hover .text {
   color: var(--white);
   border-radius: 5px;
+}
+
+/* STYLES FOR DARK MODE */
+
+.dark_theme .text {
+  color: var(--white);
+}
+
+.dark_theme .call_to_action:hover .text {
+  color: var(--dark_black);
 }

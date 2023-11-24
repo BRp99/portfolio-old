@@ -1,3 +1,4 @@
+import { useThemeContext } from "../../../context/ThemeContext"
 import styles from "./CallToAction.module.css"
 
 interface Props {
@@ -5,8 +6,10 @@ interface Props {
 }
 
 export default function CallToAction({ context }: Props) {
+  const { darkMode } = useThemeContext()
+
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} ${darkMode ? styles.dark_theme : ""}`}>
       <a href="#call-to-action" className={styles.call_to_action}>
         <div className={styles.call_to_action_hover}></div>
         <span className={styles.text}> {context} </span>
