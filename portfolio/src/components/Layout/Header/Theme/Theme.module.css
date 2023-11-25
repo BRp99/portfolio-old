@@ -36,12 +36,14 @@
   border: 1px solid #333;
   left: 0.4rem;
   bottom: 0.2rem;
-  background-color: var(--white);
+  /* background-color: var(--white); */
+  background-color: hsl(0, 0%, 90%);
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: hsl(0, 0%, 90%);
+  /* background-color: hsl(0, 0%, 90%); */
+  background-color: var(--background2-color-light);
 }
 
 input:focus + .slider {
@@ -71,6 +73,7 @@ input:checked + .slider:before {
 
 .switch .text.off {
   color: var(--dark_black);
+  /* color: white; */
   right: 0.8rem;
   opacity: 0;
 }

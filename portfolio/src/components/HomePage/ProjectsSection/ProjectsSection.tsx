@@ -8,15 +8,8 @@ export default function ProjectsSection() {
       <div className={styles.projects}>
         <Project
           imgURL=""
-          title="Market Fusion"
-          tags={["E-commerce", "React"]}
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam dolore, sint obcaecati quibusdam laborum id neque quisquam quis explicabo, facilis, illum inventore consequuntur! Iure provident ex quibusdam at numquam."
-          codeURL="#"
-          demoURL="#"
-        />
-        <Project
-          imgURL=""
-          title="Title2"
+          title="あ - it's the simple things"
+          tags={["E-commerce", "API", "React", "Typescript"]}
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam dolore, sint obcaecati quibusdam laborum id neque quisquam quis explicabo, facilis, illum inventore consequuntur! Iure provident ex quibusdam at numquam."
           codeURL="#"
           demoURL="#"
@@ -25,6 +18,14 @@ export default function ProjectsSection() {
           imgURL=""
           title="This Portfolio"
           tags={["Portfolio", "React"]}
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam dolore, sint obcaecati quibusdam laborum id neque quisquam quis explicabo, facilis, illum inventore consequuntur! Iure provident ex quibusdam at numquam."
+          codeURL="#"
+          demoURL="#"
+        />
+        <Project
+          imgURL=""
+          title="Next Projects"
+          tags={["Web3", "Web2", "API"]}
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam dolore, sint obcaecati quibusdam laborum id neque quisquam quis explicabo, facilis, illum inventore consequuntur! Iure provident ex quibusdam at numquam."
           codeURL="#"
           demoURL="#"

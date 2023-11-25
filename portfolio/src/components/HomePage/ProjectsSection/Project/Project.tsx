@@ -1,6 +1,6 @@
-import React from "react"
 import styles from "./Project.module.css"
-import FancyButton from "../../../FancyButton/FancyButton"
+import ProjectButton from "./ProjectButton/ProjectButton"
+import { useThemeContext } from "../../../context/ThemeContext"
 
 interface Props {
   imgURL: string
@@ -12,8 +12,10 @@ interface Props {
 }
 
 export default function Project({ imgURL, title, tags = [], description, codeURL, demoURL }: Props) {
+  const { darkMode } = useThemeContext()
+
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} ${darkMode ? styles.dark_theme : ""}`}>
       <div className={styles.img_container}>
         <img src={imgURL} alt={title} />
       </div>
@@ -26,8 +28,8 @@ export default function Project({ imgURL, title, tags = [], description, codeURL
         </div>
         <div className={styles.description}>{description}</div>
         <div className={styles.actions}>
-          <FancyButton url={codeURL}>View Code</FancyButton>
-          <FancyButton url={demoURL}>View Demo</FancyButton>
+          <ProjectButton url={codeURL}>View Code</ProjectButton>
+          <ProjectButton url={demoURL}>View Demo</ProjectButton>
         </div>
       </div>
     </div>

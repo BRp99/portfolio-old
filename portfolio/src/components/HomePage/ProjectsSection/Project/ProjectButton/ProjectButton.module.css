@@ -1,0 +1,62 @@
+.container {
+  border-radius: 5px;
+}
+
+.button {
+  padding: 20px 30px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.button_hover {
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark_black);
+  border: 1px solid var(--dark_black);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleY(0);
+  transform-origin: top center;
+  transition: transform 0.3s;
+  border-radius: 5px;
+}
+
+.button:hover .button_hover {
+  transform: scaleY(1);
+  transform-origin: bottom center;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: var(--white);
+  border-radius: 5px;
+}
+
+.button_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  z-index: 1;
+}
+
+/* STYLES DARK MODE */
+
+.dark_theme .button:hover {
+  background-color: var(--white);
+  color: var(--dark_black);
+}
+
+.dark_theme .button_hover {
+  background-color: var(--white);
+  border: 1px solid var(--white);
+}
+/* FINISH STYLES DARK MODE */

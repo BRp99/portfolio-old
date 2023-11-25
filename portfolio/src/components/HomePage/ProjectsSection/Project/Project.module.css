@@ -27,11 +27,27 @@
 }
 
 .tags > div {
-  background-color: gray;
+  /* background-color: gray; */
+  background-color: #eee;
+  border: 1px solid #aaa;
+
+  /* background-color: hsl(0, 0%, 90%); */
+  /* background-color: #aaa; */
+
   padding: 0.3rem 0.6rem;
-  color: white;
+  /* color: white; */
+
   border-radius: 5px;
 }
+
+/* STYLE DARK MODE */
+
+.dark_theme .tags > div {
+  color: rgb(209, 209, 209);
+  background-color: #333;
+}
+
+/* FINISH STYLE DARK MODE */
 
 .actions {
   display: flex;

@@ -10,7 +10,7 @@ export default function CallToAction({ context }: Props) {
 
   return (
     <div className={`${styles.container} ${darkMode ? styles.dark_theme : ""}`}>
-      <a href="#call-to-action" className={styles.call_to_action}>
+      <a className={styles.call_to_action} href="#call-to-action">
         <div className={styles.call_to_action_hover}></div>
         <span className={styles.text}> {context} </span>
       </a>

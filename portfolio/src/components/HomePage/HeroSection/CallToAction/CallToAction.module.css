@@ -12,6 +12,10 @@
   align-items: center;
 } */
 
+.container {
+  border-radius: 5px;
+}
+
 .call_to_action {
   padding: 20px 30px;
   /* border: 1px solid var(--white); */
@@ -22,8 +26,7 @@
   position: relative;
   /* background-color: var(--super_dark_oranged); */
   background: linear-gradient(160deg, #0ae448 50%, #0085d0 110%);
-
-  box-shadow: 0 0 5px gray;
+  /* box-shadow: 0 0 5px gray; */
 }
 
 .call_to_action_hover {
@@ -66,3 +69,5 @@
 .dark_theme .call_to_action:hover .text {
   color: var(--dark_black);
 }
+
+/* FINISH STYLES FOR DARK MODE */

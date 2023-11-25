@@ -26,7 +26,8 @@
 
   /* Dark mode colors */
   --background-color-dark: var(--dark_black);
-  --background2-color-dark: hsl(180, 5%, 8%);
+  --background2-color-dark: hsla(0, 0%, 13%, 0.788);
+  /* --background2-color-dark: hsl(180, 5%, 8%); */
   --text-color-dark: var(--white);
   --header-background-color-dark: hsla(240, 11%, 2%, 0.5);
 
