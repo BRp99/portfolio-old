@@ -8,10 +8,11 @@ export default function SkillsSection() {
     <div className={`${styles.container} ${darkMode ? styles.dark_theme : ""}`}>
       <h2 className={styles.title}>Skills</h2>
       <div className={styles.description}>
-        <div> I prefer to show and not write about it. </div>
-        <div>If you want, keep scrolling and see my skills {smileSvg} </div>
-        {/* <div> In this portfolio, I showcase my skills.</div>
-        <div>Keep scrolling to find detailed animations revealing the specific languages and frameworks that make up my skill set.</div> */}
+        {/* <div> I prefer to show and not write about it. </div>
+        // <div>If you want, keep scrolling and see my skills {smileSvg} </div> */}
+
+        <div> In this portfolio, I showcase my skills.</div>
+        <div>Keep scrolling to find detailed animations revealing the specific languages and frameworks that make up my skill set.</div>
       </div>
       <div className={styles.skills}>
         <div>{reactIcon} React JS</div>
