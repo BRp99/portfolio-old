@@ -2,6 +2,12 @@ import Project from "./Project/Project"
 import styles from "./ProjectsSection.module.css"
 
 export default function ProjectsSection() {
+  //   const description = `
+  //   Goal: Build an application that follows a solid architecture, based on reusable and scalable components for future evolutions.
+
+  //   Features: Users can easily add products to their cart and favorites, providing a fluid and personalized shopping experience; authentication is guaranteed by Auth0.
+  // `
+
   return (
     <div id="projects" className={styles.container}>
       <h2 className={styles.title}>Projects</h2>
@@ -10,19 +16,7 @@ export default function ProjectsSection() {
           imgURL=""
           title="あ - it's the simple things"
           tags={["E-commerce", "API", "React", "Typescript"]}
-          description="Objective: Learn how to fetch, use context and build an application that follows a solid architecture, based on reusable and scalable components for future evolutions.
-
-          Code structure: folders organized into logical folders to facilitate code maintenance and navigation; I use ESLint configured for Typescript to reduce the incidence of bugs.
-          
-           
-          
-          Features: Users can easily add products to their cart and favorites, providing a fluid and personalized shopping experience; authentication is guaranteed by Auth0, increasing user security and trust; implementation of search and navigation between application pages
-          
-          I created my own hook to store information in Local Storage, providing not only additional functionality, but also a deeper understanding of how data persistence can be managed efficiently.
-          
-            Learn about the importance of giving objects meaningful names to make code more readable.
-          
-          Style: neumorphic style, because it is no longer used much and I wanted to understand this style better."
+          description="I wanted to build an ecommerce application where I could learn to write code based on a solid architecture and reusable, scalable components. The application's features are as follows: adding products to the cart and favorites; choose quantities; authentication with Auth0; search and navigation between application pages."
           codeURL="#"
           demoURL="#"
         />
