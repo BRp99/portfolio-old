@@ -13,6 +13,12 @@ In this portfolio, I used several technologies, including:
 - Typescript
 - Inkscape
 
+## Learning
+- Make each component have its own responsibility;
+- Improve the design system and use dark mode for the first time;
+- Improve mobile phone responsive.
+
+
 ## Purpose
 - This portfolio is more than just a collection of projects.
 - It is the result of my journey throughout this year, a testimony of my learning, improvement and passion for development.  
