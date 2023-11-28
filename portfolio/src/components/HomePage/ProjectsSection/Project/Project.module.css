@@ -5,10 +5,23 @@
 
 .img_container {
   background-color: var(--primary-color);
-  height: 35rem;
+  /* outline: 1px solid red; */
+  border-radius: 5px;
+  position: relative;
   width: 35rem;
+  height: 35rem;
   min-height: 35rem;
   min-width: 35rem;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
 }
 
 .title {

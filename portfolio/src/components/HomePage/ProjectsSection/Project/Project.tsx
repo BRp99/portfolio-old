@@ -17,7 +17,7 @@ export default function Project({ imgURL, title, tags = [], description, codeURL
   return (
     <div className={`${styles.container} ${darkMode ? styles.dark_theme : ""}`}>
       <div className={styles.img_container}>
-        <img src={imgURL} alt={title} />
+        <img className={styles.image} src={imgURL} alt={title} />
       </div>
       <div className={styles.details}>
         <h3 className={styles.title}>{title}</h3>
