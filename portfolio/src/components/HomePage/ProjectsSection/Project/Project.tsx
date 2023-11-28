@@ -6,7 +6,7 @@ interface Props {
   imgURL: string
   title: string
   tags?: string[]
-  description: string
+  description: string | JSX.Element
   codeURL: string
   demoURL: string
 }
