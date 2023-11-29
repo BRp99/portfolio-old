@@ -6,13 +6,19 @@
 .img_container {
   background-color: var(--primary-color);
   outline: 1px solid var(--primary-color);
-  /* outline: 1px solid red; */
   border-radius: 5px;
   position: relative;
   width: 35rem;
   height: 35rem;
   min-height: 35rem;
   min-width: 35rem;
+
+  /* MOBILE RESPONSIVE */
+  /* width: 100%;
+  height: auto;
+  min-width: 280px;
+  border-radius: 5px;
+  overflow: hidden; */
 }
 
 .image {

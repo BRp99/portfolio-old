@@ -2,16 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
-.about,
-.projects {
-  font-size: 1rem;
-  color: var(--soft_black);
-}
-
-.call_to_action {
+/* .call_to_action {
   padding: 20px 30px;
   border-radius: 5px;
   cursor: pointer;
@@ -46,13 +40,13 @@
   font-weight: bold;
   letter-spacing: 1px;
   position: relative;
-  transition: color 0.2s;
+  transition: color 0.1s;
 }
 
 .call_to_action:hover .text {
   color: var(--dark_black);
   border-radius: 5px;
-}
+} */
 
 /* .contact_me {
   background-color: white;

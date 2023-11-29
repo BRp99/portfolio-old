@@ -88,7 +88,7 @@ export default function ProjectsSection() {
         </>
       ),
       codeURL: "https://github.com/BRp99/the-portfolio-react.git",
-      demoURL: "#",
+      demoURL: "https://the-portfolio-react-i4lqurtpy-brp99.vercel.app",
     },
     {
       id: 3,

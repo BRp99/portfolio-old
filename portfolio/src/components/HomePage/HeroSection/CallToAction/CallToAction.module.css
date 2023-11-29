@@ -17,14 +17,12 @@
 }
 
 .call_to_action {
-  padding: 20px 30px;
-  /* border: 1px solid var(--white); */
+  padding: 1.25em 1.875em;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
   position: relative;
-  /* background-color: var(--super_dark_oranged); */
   background: linear-gradient(160deg, #0ae448 50%, #0085d0 110%);
   /* box-shadow: 0 0 5px gray; */
 }
@@ -70,4 +68,10 @@
   color: var(--dark_black);
 }
 
-/* FINISH STYLES FOR DARK MODE */
+/* MEDIA QUERIES */
+
+@media (width < 1000px) {
+  .call_to_action {
+    padding: 0.625em 1.25em;
+  }
+}
