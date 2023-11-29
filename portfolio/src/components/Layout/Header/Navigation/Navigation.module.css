@@ -1,9 +1,15 @@
 .container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2rem;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* gap: 2rem; */
 }
+
+/* @media (width < 1000px) {
+  .container > * {
+    padding: 0.625em 1.25em;
+  }
+} */
 
 /* .call_to_action {
   padding: 20px 30px;

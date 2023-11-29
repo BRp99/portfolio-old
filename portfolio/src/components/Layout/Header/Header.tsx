@@ -9,12 +9,16 @@ export default function Header() {
       <a href="#hero-section" className={styles.logo}>
         BP
       </a>
-      <div className={styles.hamburger}>
-        <HamburgerMenu />
-      </div>
+
       <div className={styles.right}>
         <Theme />
+        <a href="#projects">Projects</a>
+
         <Navigation />
+      </div>
+
+      <div className={styles.hamburger}>
+        <HamburgerMenu />
       </div>
     </div>
   )

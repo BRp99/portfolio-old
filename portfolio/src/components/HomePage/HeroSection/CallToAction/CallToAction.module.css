@@ -62,6 +62,7 @@
 
 .dark_theme .text {
   color: var(--white);
+  /* padding: 0.625em 1.25em; */
 }
 
 .dark_theme .call_to_action:hover .text {
