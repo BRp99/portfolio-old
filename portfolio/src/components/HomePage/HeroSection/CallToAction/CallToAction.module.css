@@ -51,6 +51,7 @@
   width: 100%;
   position: relative;
   transition: color 0.2s;
+  white-space: nowrap;
 }
 
 .call_to_action:hover .text {

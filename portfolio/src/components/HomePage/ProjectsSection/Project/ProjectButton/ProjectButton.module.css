@@ -46,6 +46,7 @@
   align-items: center;
   gap: 1rem;
   z-index: 1;
+  white-space: nowrap;
 }
 
 /* STYLES DARK MODE */
@@ -60,3 +61,11 @@
   border: 1px solid var(--white);
 }
 /* FINISH STYLES DARK MODE */
+
+/* MEDIA QUERIES */
+
+@media (width <1000px) {
+  .button {
+    padding: 0.625em 1.25em;
+  }
+}

@@ -13,11 +13,9 @@
   min-height: 35rem;
   min-width: 35rem;
 
-  /* MOBILE RESPONSIVE */
   /* width: 100%;
   height: auto;
   min-width: 280px;
-  border-radius: 5px;
   overflow: hidden; */
 }
 
@@ -33,6 +31,7 @@
 
 .title {
   font-size: 2rem;
+  /* line-height: 1.3rem; */
 }
 
 .details {
@@ -47,17 +46,16 @@
 }
 
 .tags > div {
-  /* background-color: gray; */
   background-color: #eee;
   border: 1px solid #aaa;
-
-  /* background-color: hsl(0, 0%, 90%); */
-  /* background-color: #aaa; */
-
   padding: 0.3rem 0.6rem;
-  /* color: white; */
-
   border-radius: 5px;
+  white-space: nowrap;
+}
+
+.description {
+  line-height: 1.5rem;
+  text-align: left;
 }
 
 /* STYLE DARK MODE */

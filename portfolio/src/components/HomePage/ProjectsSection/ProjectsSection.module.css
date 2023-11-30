@@ -5,6 +5,8 @@
 
 .title {
   font-size: 3rem;
+  /* font-size: clamp(1.5rem, 3vw, 3rem); */
+
   margin-top: 0;
 }
 
