@@ -79,6 +79,13 @@
 /* MEDIA QUERIES */
 
 @media (width < 942px) {
+  .title {
+    text-align: center;
+  }
+  .description {
+    text-align: center;
+  }
+
   .skills {
     gap: 3rem;
     justify-content: center;
