@@ -4,15 +4,25 @@
   /* margin-right: 5rem; */
 }
 
+.hamburger {
+  transition: opacity 0.3s ease-in-out;
+  font-size: 2.5rem;
+}
+
+.close {
+  transition: opacity 0.3s ease-in-out;
+  font-size: 2rem;
+}
+
 .menu_box {
-  margin-top: 0.25rem;
+  margin-top: 1rem;
   width: 140px;
   position: absolute;
   /* top: 0;
   left: 3rem; */
   /* margin-top: 0.5rem; */
   top: 2rem;
-  right: -3rem;
+  right: 0rem;
   outline: 1px solid var(--grey);
   /* outline: 1px solid #e4e4e7; */
   border-radius: 5px;
@@ -32,6 +42,5 @@
 /* DARK MODE */
 
 .dark_theme .menu_box {
-  /* background-color: #333; */
   background-color: var(--background-color-dark);
 }

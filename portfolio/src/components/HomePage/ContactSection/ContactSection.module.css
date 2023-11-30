@@ -64,15 +64,20 @@
 }
 
 .title {
-  font-size: 3rem;
+  /* font-size: 3rem; */
+  font-size: clamp(1.5rem, 3vw, 3rem);
+  white-space: nowrap;
   text-align: center;
   margin: 0;
   padding: 2rem;
   padding-top: 0;
+  /* background-color: blue; */
+  flex-shrink: 1;
 }
 
 .actions {
   display: flex;
+  text-align: center;
   gap: 3rem;
 }
 
@@ -81,4 +86,11 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  white-space: nowrap;
+}
+
+@media (width < 470px) {
+  .actions {
+    gap: 1rem;
+  }
 }

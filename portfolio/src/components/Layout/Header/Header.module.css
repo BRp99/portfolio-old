@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex: 1;
   position: fixed;
   top: 0;
   z-index: 2;
@@ -10,7 +11,7 @@
   right: 0;
   backdrop-filter: blur(10px);
   background-color: var(--header-background-color);
-  flex: 1;
+  /* overflow-x: hidden; */
 }
 
 .logo {
@@ -46,11 +47,17 @@
 /* MEDIA QUERIES */
 
 @media (width < 670px) {
+  /* .container {
+    padding: 0.5em 3em;
+  } */
+
+  .container > * {
+    justify-content: space-around;
+  }
+
   .hamburger {
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 2rem;
   }
 
   .right {
