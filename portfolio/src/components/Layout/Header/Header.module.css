@@ -53,6 +53,7 @@
 
   .container > * {
     justify-content: space-around;
+    /* position: static; */
   }
 
   .hamburger {

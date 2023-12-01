@@ -63,6 +63,7 @@ body {
   color: var(--text-color);
   transition: background-color 0.1s ease-out, color 0.1s ease-out;
   /* height: -webkit-fill-available; */
+  overflow-x: hidden;
 }
 
 a {
@@ -78,10 +79,4 @@ h3 {
 
 ::selection {
   background-color: var(--selection-color);
-}
-
-@media (width < 1070px) {
-  body {
-    overscroll-behavior: none;
-  }
 }
