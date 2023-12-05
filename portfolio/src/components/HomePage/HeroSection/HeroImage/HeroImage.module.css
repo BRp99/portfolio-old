@@ -47,10 +47,10 @@
     /* transform: translateX(0.25rem); */
   }
 }
-
+/* 
 @media (width < 640px) {
   .container > svg,
   .shadow > svg {
-    /* height: calc(100vh - 4rem - 0.5rem); */
+    height: calc(100vh - 4rem - 0.5rem);
   }
-}
+} */
