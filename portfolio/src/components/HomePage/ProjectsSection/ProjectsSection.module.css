@@ -24,6 +24,12 @@
 
 @media (width < 1100px) {
   .container {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (width < 1100px) {
+  .container {
     padding: 4rem 0rem;
   }
 }

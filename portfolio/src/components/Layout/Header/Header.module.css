@@ -52,10 +52,6 @@
 }
 
 @media (width < 670px) {
-  /* .container {
-    padding: 0.5em 3em;
-  } */
-
   .container > * {
     justify-content: space-around;
   }
