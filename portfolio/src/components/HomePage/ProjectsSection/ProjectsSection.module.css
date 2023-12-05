@@ -23,12 +23,6 @@
 
 @media (width < 1100px) {
   .container {
-    padding: 2rem 0rem;
-  }
-}
-
-/* @media (width < 1100px) {
-  .container {
     padding: 4rem 0rem;
   }
-} */
+}

@@ -2,7 +2,7 @@
   font-size: 1rem;
   position: relative;
   display: inline-block;
-  width: 5.2rem;
+  width: 4.5rem;
   height: 2rem;
   overflow: hidden;
 }
@@ -14,7 +14,6 @@
   height: 0;
 }
 
-/* slider */
 .slider {
   position: absolute;
   cursor: pointer;
@@ -24,25 +23,10 @@
   bottom: 0;
   background-color: var(--primary-color);
   transition: 0.4s;
-  border-radius: 30px;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 1.4rem;
-  width: 1.4rem;
-  border-radius: 20px;
-  border: 1px solid #333;
-  left: 0.4rem;
-  bottom: 0.2rem;
-  /* background-color: var(--white); */
-  background-color: hsl(0, 0%, 90%);
-  transition: 0.4s;
+  border-radius: 2rem;
 }
 
 input:checked + .slider {
-  /* background-color: hsl(0, 0%, 90%); */
   background-color: var(--background2-color-light);
 }
 
@@ -73,7 +57,6 @@ input:checked + .slider:before {
 
 .switch .text.off {
   color: var(--dark_black);
-  /* color: white; */
   right: 0.8rem;
   opacity: 0;
 }
@@ -84,7 +67,6 @@ input:checked ~ .text.on {
 }
 
 input:checked ~ .text.off {
-  /* transform: translateX(3rem) translateY(-50%); */
   opacity: 0;
 }
 
@@ -94,4 +76,9 @@ input:not(:checked) ~ .text.on {
 
 input:not(:checked) ~ .text.off {
   opacity: 1;
+}
+
+span > svg {
+  font-size: 1.5rem;
+  display: flex;
 }
