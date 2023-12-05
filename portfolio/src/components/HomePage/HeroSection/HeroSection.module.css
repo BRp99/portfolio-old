@@ -58,7 +58,9 @@
 @media (width < 1100px) {
   .container {
     padding: 0.5rem 1rem;
-    padding-top: 8rem;
-    height: calc(100vh - 8rem - 0.5rem);
+    padding-top: 4rem;
+    height: calc(100vh - 4rem - 0.5rem);
+    align-items: center;
+    text-align: center;
   }
 }

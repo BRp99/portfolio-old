@@ -1,5 +1,5 @@
 .container > svg {
-  height: calc(100vh - 6rem);
+  height: calc(100vh - 4rem);
   stroke: #aaa;
   stroke-width: 1;
   position: absolute;
@@ -21,6 +21,7 @@
 }
 
 .shadow > svg {
+  height: calc(100vh - 4rem);
   position: absolute;
   stroke: #aaa;
   stroke-width: 2;
@@ -28,7 +29,6 @@
   font-size: 20rem;
   bottom: 0;
   right: 0rem;
-  height: calc(100vh - 6rem);
 }
 
 .shadow > svg > path {
@@ -47,6 +47,6 @@
 @media (width < 640px) {
   .container > svg,
   .shadow > svg {
-    height: calc(100vh - 8rem - 0.5rem);
+    height: calc(100vh - 4rem - 0.5rem);
   }
 }

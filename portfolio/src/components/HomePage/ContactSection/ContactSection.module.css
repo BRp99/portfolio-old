@@ -9,6 +9,7 @@
 .card {
   border-radius: 15px;
   max-width: 700px;
+  min-width: 150px;
   width: 100%;
   background: linear-gradient(160deg, #0ae448 50%, #0085d0 110%);
   height: 100%;
@@ -42,6 +43,15 @@
   align-items: center;
   gap: 1rem;
   white-space: nowrap;
+}
+
+/* MEDIA QUERIES */
+
+@media (width < 1100px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 @media (width < 470px) {
