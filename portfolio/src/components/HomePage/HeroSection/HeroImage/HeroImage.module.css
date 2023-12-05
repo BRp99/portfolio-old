@@ -47,9 +47,9 @@
   }
 }
 
-@media (width < 510px) {
+@media (width < 415px) {
   .container > svg,
   .shadow > svg {
-    top: 3.5rem;
+    top: 0rem;
   }
 }
