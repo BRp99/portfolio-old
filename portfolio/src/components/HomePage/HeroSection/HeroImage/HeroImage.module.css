@@ -1,9 +1,9 @@
 .container > svg {
   height: calc(100vh - 4rem);
+  max-width: 100%;
   stroke: #aaa;
   stroke-width: 1;
   position: absolute;
-  /* font-size: 20rem; */
   top: 4rem;
   bottom: 0;
   right: 0;
@@ -23,11 +23,12 @@
 
 .shadow > svg {
   height: calc(100vh - 4rem);
+  max-width: 100%;
+
   position: absolute;
   stroke: #aaa;
   stroke-width: 2;
   filter: blur(5px);
-  /* font-size: 20rem; */
   top: 4rem;
 
   bottom: 0;
@@ -43,13 +44,13 @@
 @keyframes appear {
   to {
     opacity: 1;
-    transform: translateX(0.25rem);
+    /* transform: translateX(0.25rem); */
   }
 }
 
 @media (width < 640px) {
   .container > svg,
   .shadow > svg {
-    height: calc(100vh - 4rem - 0.5rem);
+    /* height: calc(100vh - 4rem - 0.5rem); */
   }
 }

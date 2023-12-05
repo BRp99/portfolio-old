@@ -1,7 +1,7 @@
 .container {
   display: flex;
   gap: 2rem;
-  width: 100%;
+  /* width: 100%; */
   justify-content: space-between;
 }
 
@@ -14,7 +14,6 @@
   border-radius: 5px;
   position: relative;
   width: 35rem;
-  min-width: 15rem;
   flex: 1;
   padding: 0;
 }
@@ -58,6 +57,10 @@
   text-align: left;
 }
 
+.description li {
+  text-align: left;
+}
+
 .actions {
   display: flex;
   gap: 1rem;
@@ -94,7 +97,7 @@
   .description {
     display: flex;
     flex-wrap: wrap;
-    margin-inline: 10vw;
+    /* margin-inline: 10vw; */
   }
 }
 
@@ -106,14 +109,14 @@
 
 @media (width < 650px) {
   .img_container {
-    width: 25rem;
+    width: 100%;
+    /* width: 25rem; */
     height: 25rem;
   }
 }
 
 @media (width < 550px) {
   .img_container {
-    width: 20rem;
     height: 20rem;
   }
 
@@ -128,8 +131,10 @@
 }
 
 @media (width < 420px) {
+  .container {
+    padding: 0;
+  }
   .img_container {
-    width: 15rem;
     height: 15rem;
   }
 }

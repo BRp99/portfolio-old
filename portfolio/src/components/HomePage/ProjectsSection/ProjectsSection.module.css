@@ -11,7 +11,7 @@
 .projects {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 10rem;
 }
 
 /* MEDIA QUERIES */
