@@ -12,12 +12,12 @@
   text-align: left;
 }
 
-/* .description > div:nth-child(odd) {
-  padding-top: 1rem;
-} */
+.description > div:nth-child(odd) {
+  padding-top: 1.5rem;
+}
 
 .description > div:nth-child(even) {
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 }
 
 /* .description > div:nth-child(2) {
