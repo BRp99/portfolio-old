@@ -52,17 +52,13 @@
 
 html {
   scroll-behavior: smooth;
-  /* height: -webkit-fill-available; */
 }
 
 body {
-  height: 100vh;
-  height: 100svh;
   margin: 0;
   background-color: var(--background-color);
   color: var(--text-color);
   transition: background-color 0.1s ease-out, color 0.1s ease-out;
-  /* height: -webkit-fill-available; */
   overflow-x: hidden;
 }
 

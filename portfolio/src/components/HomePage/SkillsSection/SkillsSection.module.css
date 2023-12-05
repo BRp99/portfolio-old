@@ -3,7 +3,7 @@
 }
 
 .title {
-  font-size: 3rem;
+  font-size: clamp(2rem, 3vw, 3rem);
   margin-top: 0;
 }
 
@@ -78,7 +78,7 @@
 
 /* MEDIA QUERIES */
 
-@media (width < 942px) {
+@media (width < 1205px) {
   .title {
     text-align: center;
   }
@@ -90,10 +90,5 @@
     gap: 3rem;
     justify-content: center;
     align-items: center;
-  }
-}
-@media (width <425px) {
-  .description {
-    text-align: center;
   }
 }

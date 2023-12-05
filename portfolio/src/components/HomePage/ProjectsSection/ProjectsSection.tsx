@@ -60,7 +60,6 @@ export default function ProjectsSection() {
           <p>
             The application's features are as follows:
             <ul>
-              {" "}
               <li>adding products to the cart and favorites;</li>
               <li>choose quantities;</li>
               <li>authentication with Auth0;</li>

@@ -26,6 +26,7 @@ export default function Project({ imgURL, title, tags = [], description, codeURL
             <div>{tag}</div>
           ))}
         </div>
+
         <div className={styles.description}>{description}</div>
         <div className={styles.actions}>
           <ProjectButton url={codeURL}>View Code</ProjectButton>

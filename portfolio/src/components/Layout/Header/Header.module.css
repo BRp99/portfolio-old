@@ -11,7 +11,6 @@
   right: 0;
   backdrop-filter: blur(10px);
   background-color: var(--header-background-color);
-  /* overflow-x: hidden; */
 }
 
 .logo {
@@ -46,6 +45,12 @@
 
 /* MEDIA QUERIES */
 
+@media (width < 1100px) {
+  .container {
+    padding: 0.5rem 1rem;
+  }
+}
+
 @media (width < 670px) {
   /* .container {
     padding: 0.5em 3em;
@@ -53,7 +58,6 @@
 
   .container > * {
     justify-content: space-around;
-    /* position: static; */
   }
 
   .hamburger {

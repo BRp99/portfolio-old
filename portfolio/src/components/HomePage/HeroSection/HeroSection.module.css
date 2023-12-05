@@ -2,8 +2,6 @@
   padding: 1rem 6rem;
   padding-top: 8rem;
   height: calc(100vh - 8rem - 1rem);
-  /* height: calc(100 svh - 8rem - 1rem); */
-  /* position: relative; */
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -54,9 +52,3 @@
   transform: translateY(2px) translateX(1px);
   box-shadow: 0 0 0 0 var(--dark_black);
 }
-
-/* @media (width < 385px) {
-  .container * > {
-    white-space: nowrap;
-  }
-} */
