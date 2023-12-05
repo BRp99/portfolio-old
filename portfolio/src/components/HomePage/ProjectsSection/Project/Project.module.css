@@ -97,6 +97,12 @@
   }
 }
 
+@media (width < 1100px) {
+  .container {
+    padding: 0.5rem 1rem;
+  }
+}
+
 @media (width < 769px) {
   .img_container {
     width: 20rem;
