@@ -1,6 +1,5 @@
 import { ReactNode } from "react"
 import styles from "./FancyButton.module.css"
-import { useThemeContext } from "../context/ThemeContext"
 
 interface Props {
   url: string

@@ -13,21 +13,6 @@
   align-items: center;
 }
 
-/* .contact_btn {
-  position: relative;
-  background-color: var(--white);
-  color: var(--dark_black);
-  border-radius: 10rem;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 1rem 2rem;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  border: 1px solid var(--dark_black);
-  box-shadow: 0 0 0 0 var(--dark_black);
-  z-index: 2;
-} */
-
 .contact_btn:hover {
   transform: translateY(-4px) translateX(-2px);
   box-shadow: 2px 5px 0 0 var(--dark_black);

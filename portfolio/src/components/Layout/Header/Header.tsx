@@ -12,6 +12,7 @@ export default function Header() {
 
       <div className={styles.right}>
         <Theme />
+        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
 
         <Navigation />

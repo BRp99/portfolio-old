@@ -51,7 +51,7 @@ export default function ProjectsSection() {
     },
     {
       id: 3,
-      imgURL: "",
+      imgURL: "./img/work.png",
       title: "Next Project: Tic Tac Toe",
       tags: ["Game"],
       description:

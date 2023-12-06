@@ -5,25 +5,22 @@ export default function SkillsSection() {
   const { darkMode } = useThemeContext()
 
   return (
-    <div className={`${styles.container} ${darkMode ? styles.dark_theme : ""}`}>
+    <div id="skills" className={`${styles.container} ${darkMode ? styles.dark_theme : ""}`}>
       <h2 className={styles.title}>Skills</h2>
       <div className={styles.description}>
-        <div>My name is Beatriz Pereira and I am a Frontend Developer based in Portugal.</div>
-        <div>
-          In 2023, I made the courageous decision to follow a new direction, abandoning my academic and professional path to dive head first into the
-          world of code.
-        </div>
+        {/* <div>My name is Beatriz Pereira and I am a Frontend Developer based in Portugal.</div> */}
+        <div>In 2023, I made the decision to abandoning my academic and professional path to dive head first into the world of code.</div>
         <div>
           This portfolio is a reflection of my journey throughout this year, a testament to my commitment, dedication and continuous learning.
         </div>
-        <div>Despite having dived head first into the world of code, I also discovered that life is not an infinite programming loop.</div>
+        {/* <div>Despite having dived head first into the world of code, I also discovered that life is not an infinite programming loop.</div> */}
         <div>
-          When I'm not busy with algorithms and bugs, you can find me galloping through the fields on top of a horse and braving the waters like an
-          intrepid swimmer.
+          When I'm not busy with algorithms and bugs, you can find me galloping through the fields on top of a horse, swim and taste delicius cakes
+          with a hint of secret code!
         </div>
         <div>
-          After all, between bits and bytes, you also need space to ride, swim, sweat and, of course, taste delicious cakes made with a hint of secret
-          code!
+          {/* After all, between bits and bytes, you also need space to ride, swim, sweat and, of course, taste delicious cakes made with a hint of secret
+          code! */}
         </div>
       </div>
       <div className={styles.skills}>
