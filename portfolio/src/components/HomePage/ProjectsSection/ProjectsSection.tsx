@@ -13,10 +13,7 @@ export default function ProjectsSection() {
       tags: ["E-commerce", "API", "React", "Typescript"],
       description: (
         <>
-          <p>
-            I wanted to build an ecommerce application where I could learn to write code based on a solid architecture, reusable and scalable
-            components.
-          </p>
+          <p>I wanted to build an ecommerce application where I could learn to write code based on a reusable and scalable components.</p>
           <p>
             The application's features are as follows:
             <ul>

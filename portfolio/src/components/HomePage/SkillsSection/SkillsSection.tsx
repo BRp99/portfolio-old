@@ -10,9 +10,7 @@ export default function SkillsSection() {
       <div className={styles.description}>
         {/* <div>My name is Beatriz Pereira and I am a Frontend Developer based in Portugal.</div> */}
         <div>In 2023, I made the decision to abandoning my academic and professional path to dive head first into the world of code.</div>
-        <div>
-          This portfolio is a reflection of my journey throughout this year, a testament to my commitment, dedication and continuous learning.
-        </div>
+        <div>This portfolio is a reflection of my journey throughout this year.</div>
         {/* <div>Despite having dived head first into the world of code, I also discovered that life is not an infinite programming loop.</div> */}
         <div>
           When I'm not busy with algorithms and bugs, you can find me galloping through the fields on top of a horse, swim and taste delicius cakes
