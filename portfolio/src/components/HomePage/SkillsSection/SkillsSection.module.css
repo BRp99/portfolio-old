@@ -12,24 +12,10 @@
   text-align: left;
 }
 
+.description > div:nth-child(even),
 .description > div:nth-child(odd) {
   padding-top: 1.5rem;
 }
-
-.description > div:nth-child(even) {
-  padding-top: 1.5rem;
-}
-
-/* .description > div:nth-child(2) {
-  padding-top: 0.5rem;
-  display: flex;
-  align-items: center;
-} */
-
-/* 
-.description > div:nth-child(2) > svg {
-  font-size: 1.5rem;
-} */
 
 .skills {
   display: flex;

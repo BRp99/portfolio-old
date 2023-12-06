@@ -8,17 +8,18 @@ export default function SkillsSection() {
     <div id="skills" className={`${styles.container} ${darkMode ? styles.dark_theme : ""}`}>
       <h2 className={styles.title}>Skills</h2>
       <div className={styles.description}>
-        {/* <div>My name is Beatriz Pereira and I am a Frontend Developer based in Portugal.</div> */}
-        <div>In 2023, I made the decision to abandoning my academic and professional path to dive head first into the world of code.</div>
-        <div>This portfolio is a reflection of my journey throughout this year.</div>
-        {/* <div>Despite having dived head first into the world of code, I also discovered that life is not an infinite programming loop.</div> */}
         <div>
-          When I'm not busy with algorithms and bugs, you can find me galloping through the fields on top of a horse, swim and taste delicius cakes
-          with a hint of secret code!
+          I spent five years in University to earn my bachelor's and master's in sports science. After half a decade of learning about athletic
+          performance of the human body, I worked at gyms, and did research into how physical exercise plays a role in staving off cognitive decline
+          in old people. Whilst doing statistics for the research project, I became interested in how computers works.
         </div>
         <div>
-          {/* After all, between bits and bytes, you also need space to ride, swim, sweat and, of course, taste delicious cakes made with a hint of secret
-          code! */}
+          In January 2023, I pivoted and decided to take a break from my academic and professional background in sports science to learn programming.
+          This portfolio is a small window into my self-taught journey ever since.
+        </div>
+        <div>
+          Now, when I'm not busy with implementing React components and squishing bugs, you can find me galloping through the fields on top of a
+          horse, walking my dog Pantufa, spending time with family and friends, or baking (allegedly) delicious cakes with a hint of secret code!
         </div>
       </div>
       <div className={styles.skills}>
