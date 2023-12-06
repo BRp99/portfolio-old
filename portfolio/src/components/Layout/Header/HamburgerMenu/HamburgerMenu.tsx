@@ -8,12 +8,9 @@ export default function HamburgerMenu() {
   const { darkMode } = useThemeContext()
 
   const [menuOpen, setMenuOpen] = useState(false)
-  // const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const isMenuOpen = menuOpen
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen)
-    // setIsMenuOpen(!isMenuOpen)
   }
 
   return (
@@ -23,6 +20,9 @@ export default function HamburgerMenu() {
         <div className={styles.menu_box}>
           <div>
             <Theme />
+          </div>
+          <div>
+            <a href="#skills">Skills</a>
           </div>
           <div>
             <a href="#projects">Projects</a>

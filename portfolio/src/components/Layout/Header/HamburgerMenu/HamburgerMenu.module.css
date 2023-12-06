@@ -1,7 +1,6 @@
 .container {
   cursor: pointer;
   position: relative;
-  /* margin-right: 5rem; */
 }
 
 .hamburger {
@@ -16,23 +15,16 @@
 
 .menu_box {
   margin-top: 1rem;
-  /* width: 140px; */
   position: absolute;
-  /* top: 0;
-  left: 3rem; */
-  /* margin-top: 0.5rem; */
   top: 2rem;
   right: 0rem;
   outline: 1px solid var(--grey);
-  /* outline: 1px solid #e4e4e7; */
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   background-color: var(--white);
 }
 
 .menu_box > * {
-  /* padding: 0.5rem; */
-  /* padding-left: 1rem; */
   padding: 0.5rem 0.5rem;
   display: flex;
   flex-direction: column;
