@@ -129,6 +129,11 @@
     height: 20rem;
   }
 
+  .description {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .tags {
     flex-wrap: wrap;
     justify-content: center;
