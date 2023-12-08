@@ -49,10 +49,20 @@ export default function ProjectsSection() {
     {
       id: 3,
       imgURL: "./img/work.png",
-      title: "Next Project: Tic Tac Toe",
-      tags: ["Game"],
-      description:
-        "The next project will be the Tic Tac Toe game to create user interactions; manipulation and integration of inputs basic concepts of DOM manipulation in web environments.",
+      title: "From Novice to Ninja: Daily Learnings in Advent of Code 2023",
+      tags: ["Python", "Advent of Code 2023", "Blog"],
+      description: (
+        <>
+          <p>
+            My next project will be to create a blog dedicated to solving the Advent of Code 2023 challenges, where I can improve my skills in problem
+            solving, programming logic and algorithms.
+          </p>
+          <p>
+            One of the fundamental decisions for this project is the choice of programming language, and I am determined to learn Python, as it can
+            open doors to a wide range of applications, from web development to data analysis and artificial intelligence.
+          </p>
+        </>
+      ),
       codeURL: "#",
       demoURL: "#",
     },
