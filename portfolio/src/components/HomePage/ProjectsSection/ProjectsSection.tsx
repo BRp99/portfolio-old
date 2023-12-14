@@ -48,7 +48,7 @@ export default function ProjectsSection() {
     },
     {
       id: 3,
-      imgURL: "./img/progress.svg",
+      imgURL: !darkMode ? "./img/progress.svg" : "./img/progress_white.svg",
       title: "From Novice to Ninja: Daily Learnings in Advent of Code 2023",
       tags: ["Python", "Advent of Code 2023", "Blog-Posts"],
       description: (
