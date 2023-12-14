@@ -48,14 +48,14 @@ export default function ProjectsSection() {
     },
     {
       id: 3,
-      imgURL: "./img/work.png",
+      imgURL: "./img/progress.svg",
       title: "From Novice to Ninja: Daily Learnings in Advent of Code 2023",
-      tags: ["Python", "Advent of Code 2023", "Blog"],
+      tags: ["Python", "Advent of Code 2023", "Blog-Posts"],
       description: (
         <>
           <p>
-            My next project will be to create a blog dedicated to solving the Advent of Code 2023 challenges, where I can improve my skills in problem
-            solving, programming logic and algorithms.
+            My next project will be to create a blog-posts dedicated to solving the Advent of Code 2023 challenges, where I can improve my skills in
+            problem solving, programming logic and algorithms.
           </p>
           <p>
             One of the fundamental decisions for this project is the choice of programming language, and I am determined to learn Python, as it can
