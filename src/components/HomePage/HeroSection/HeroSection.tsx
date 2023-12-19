@@ -2,6 +2,7 @@ import HeroImage from "./HeroImage/HeroImage"
 import styles from "./HeroSection.module.css"
 import DownArrow from "./DownArrow/DownArrow"
 import CallToAction from "./CallToAction/CallToAction"
+import CVButton from "./CVButton/CVButton"
 
 export default function HeroSection() {
   return (
@@ -13,6 +14,7 @@ export default function HeroSection() {
         </div>
         <div className={styles.hire_me}>
           <CallToAction context="Get in Touch" />
+          <CVButton />
         </div>
       </div>
       <HeroImage />

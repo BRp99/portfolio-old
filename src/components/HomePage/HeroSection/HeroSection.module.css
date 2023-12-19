@@ -24,6 +24,11 @@
   margin: 0;
 }
 
+.hire_me {
+  display: flex;
+  gap: 2rem;
+}
+
 .scrool_down {
   margin-top: 2rem;
   background-color: var(--white);

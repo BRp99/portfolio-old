@@ -1,0 +1,65 @@
+.container {
+  border-radius: 5px;
+}
+
+.call_to_action {
+  padding: 1.25em 1.875em;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  background: linear-gradient(160deg, #0ae448 50%, #0085d0 110%);
+  /* box-shadow: 0 0 5px gray; */
+}
+
+.call_to_action_hover {
+  width: 100%;
+  height: 100%;
+  /* background-color: var(--dark_oranged); */
+  background-color: var(--super_dark_oranged);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleY(0);
+  transform-origin: top center;
+  transition: transform 0.3s;
+  border-radius: 5px;
+}
+
+.call_to_action:hover .call_to_action_hover {
+  transform: scaleY(1);
+  transform-origin: bottom center;
+  border-radius: 5px;
+}
+
+.text {
+  width: 100%;
+  position: relative;
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+
+.call_to_action:hover .text {
+  color: var(--white);
+  border-radius: 5px;
+}
+
+/* STYLES FOR DARK MODE */
+
+.dark_theme .text {
+  color: var(--white);
+  /* padding: 0.625em 1.25em; */
+}
+
+.dark_theme .call_to_action:hover .text {
+  color: var(--dark_black);
+}
+
+/* MEDIA QUERIES */
+
+@media (width < 1000px) {
+  .call_to_action {
+    padding: 0.625em 1.25em;
+  }
+}
