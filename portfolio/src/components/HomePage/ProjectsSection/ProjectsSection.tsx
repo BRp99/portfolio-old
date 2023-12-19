@@ -26,7 +26,7 @@ export default function ProjectsSection() {
         </>
       ),
       codeURL: "https://github.com/BRp99/e-commerce-app.git",
-      demoURL: "https://e-commerce-jurp1avue-brp99.vercel.app",
+      demoURL: "https://buy-simple-things.vercel.app/",
     },
     {
       id: 2,
@@ -44,13 +44,13 @@ export default function ProjectsSection() {
         </>
       ),
       codeURL: "https://github.com/BRp99/the-portfolio-react.git",
-      demoURL: "https://the-portfolio-react-i4lqurtpy-brp99.vercel.app",
+      demoURL: "https://brp99.github.io/",
     },
     {
       id: 3,
       imgURL: !darkMode ? "./img/progress.svg" : "./img/progress_white.svg",
       title: "From Novice to Ninja: Daily Learnings in Advent of Code 2023",
-      tags: ["Python", "Advent of Code 2023", "Blog-Posts"],
+      tags: ["Python", "Advent of Code 2023", "Blog-Posts", "GitHub"],
       description: (
         <>
           <p>
