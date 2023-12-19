@@ -8,7 +8,7 @@ interface Props {
   tags?: string[]
   description: string | JSX.Element
   codeURL: string
-  demoURL: string
+  demoURL?: string | null
 }
 
 export default function Project({ imgURL, title, tags = [], description, codeURL, demoURL }: Props) {
@@ -29,8 +29,8 @@ export default function Project({ imgURL, title, tags = [], description, codeURL
 
         <div className={styles.description}>{description}</div>
         <div className={styles.actions}>
+          {demoURL !== undefined && demoURL !== null && <ProjectButton url={demoURL}>View Demo</ProjectButton>}
           <ProjectButton url={codeURL}>View Code</ProjectButton>
-          <ProjectButton url={demoURL}>View Demo</ProjectButton>
         </div>
       </div>
     </div>
