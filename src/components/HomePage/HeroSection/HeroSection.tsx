@@ -14,7 +14,9 @@ export default function HeroSection() {
         </div>
         <div className={styles.hire_me}>
           <CallToAction context="Get in Touch" />
-          <CVButton />
+          <div>
+            <CVButton />
+          </div>
         </div>
       </div>
       <HeroImage />

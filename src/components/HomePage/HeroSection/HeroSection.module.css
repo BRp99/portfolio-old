@@ -69,3 +69,13 @@
     text-align: center;
   }
 }
+
+@media (width < 408px) {
+  .hire_me {
+    display: block;
+  }
+
+  .hire_me > div {
+    margin-top: 1rem;
+  }
+}
