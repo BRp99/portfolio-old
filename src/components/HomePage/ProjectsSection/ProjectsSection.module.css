@@ -1,5 +1,6 @@
 .container {
   padding: 4rem 6rem;
+  scroll-margin-top: 4.5rem;
 }
 
 .title {

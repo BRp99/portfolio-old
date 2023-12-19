@@ -63,7 +63,7 @@ export default function ProjectsSection() {
           </p>
         </>
       ),
-      codeURL: "#",
+      codeURL: "https://github.com/BRp99/advent-of-code-2023",
     },
   ]
 
