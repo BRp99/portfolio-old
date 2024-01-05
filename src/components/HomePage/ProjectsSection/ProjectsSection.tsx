@@ -54,8 +54,8 @@ export default function ProjectsSection() {
       description: (
         <>
           <p>
-            My next project will be to create posts dedicated to solving the Advent of Code 2023 challenges, where I can improve my skills in problem
-            solving, programming logic and algorithms.
+            In this project I create posts dedicated to solving the Advent of Code 2023 challenges, where I can improve my skills in problem solving,
+            programming logic and algorithms.
           </p>
           <p>
             One of the fundamental decisions for this project is the choice of programming language, and I am determined to learn Python, as it can
@@ -64,6 +64,23 @@ export default function ProjectsSection() {
         </>
       ),
       codeURL: "https://github.com/BRp99/advent-of-code-2023",
+    },
+    {
+      id: 4,
+      imgURL: "./img/plot_coin_market_cap.png",
+      title: "CryptoScrape: web scraping cryptocurrency price changes",
+      tags: ["CoinMarketCap", "Web Scraping", "Python", "BeautifulSoup"],
+      description: (
+        <>
+          <p>My next project is continuing my Python journey, focused on web scraping to extract cryptocurrency price data from CoinMarketCap.</p>
+          <p>
+            Initially, data extraction is performed statically using BeautifulSoup for web scraping and pandas for data manipulation and matplotlib
+            for visualization.
+          </p>
+          <p> Later, there are plans to explore dynamic data loading using Selenium.</p>
+        </>
+      ),
+      codeURL: "https://github.com/BRp99/CryptoScrape-web-scraping-cryptocurrency-price-changes",
     },
   ]
 
