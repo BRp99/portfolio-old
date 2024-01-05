@@ -43,7 +43,7 @@ export default function ProjectsSection() {
           </p>
         </>
       ),
-      codeURL: "https://github.com/BRp99/the-portfolio-react.git",
+      codeURL: "https://github.com/BRp99/BRp99.github.io",
       demoURL: "https://brp99.github.io/",
     },
     {
@@ -80,7 +80,7 @@ export default function ProjectsSection() {
           <p> Later, there are plans to explore dynamic data loading using Selenium.</p>
         </>
       ),
-      codeURL: "https://github.com/BRp99/CryptoScrape-web-scraping-cryptocurrency-price-changes",
+      codeURL: "https://github.com/BRp99/cryptoScrape-web-scraping-cryptocurrency-price-changes",
     },
   ]
 
