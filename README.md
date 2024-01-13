@@ -20,6 +20,7 @@ In this portfolio, I used several technologies, including:
 - React.js
 - Typescript
 - Inkscape
+- Cypress
 
 ## Purpose
 
