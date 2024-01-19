@@ -10,7 +10,7 @@ export default function ProjectsSection() {
       id: 1,
       imgURL: "./img/MarketFusion.png",
       title: "あ - it's the simple things",
-      tags: ["E-commerce", "API", "React", "Typescript"],
+      tags: ["E-commerce", "API", "React", "Typescript", "Cypress"],
       description: (
         <>
           <p>I wanted to build an ecommerce application where I could learn to write code based on a reusable and scalable components.</p>
@@ -67,7 +67,7 @@ export default function ProjectsSection() {
     },
     {
       id: 4,
-      imgURL: "./img/plot_coin_market_cap.png",
+      imgURL: "./img/graphic.png",
       title: "CryptoScrape: web scraping cryptocurrency price changes",
       tags: ["CoinMarketCap", "Web Scraping", "Python", "BeautifulSoup"],
       description: (
