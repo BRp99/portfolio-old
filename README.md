@@ -37,6 +37,8 @@ Feel free to contact me! You can find me at:
 
 ## Building a new deployment
 
-- Build with `yarn build`
-- Rename the new `build` folder to `docs`
-- Push
+1. Do commit: `git add .` then `git commit -m " Message that I wanna see about what I do in this commit"`;
+2. Build with `yarn build` and wait until folder build is created;
+3. Delete folder `docs`;
+4. Rename folder `build` to folder `docs`
+5. Do push with command `git push`
