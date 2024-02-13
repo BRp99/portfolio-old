@@ -82,6 +82,26 @@ export default function ProjectsSection() {
       ),
       codeURL: "https://github.com/BRp99/cryptoScrape-web-scraping-cryptocurrency-price-changes",
     },
+    {
+      id: 5,
+      imgURL: "./img/valentine.png",
+      title: "Valentine Proposal",
+      tags: ["Google Analytics", "React-ga", "UX"],
+      description: (
+        <>
+          <p>
+            I take advantage of the arrival of Valentine's Day to create a page where I can share this project with my friends and they send it to
+            their valentines.
+          </p>
+          <p>
+            The project will only be visible from midnight on February 13, 2024 to the 14th.
+            <p>The main objective is use Google Analytics tool to understand user behavior, to personalize user experience {"(UX)."}</p>
+          </p>
+        </>
+      ),
+      codeURL: "https://github.com/BRp99/valentine-proposal",
+      demoURL: "https://valentine-proposal-nine.vercel.app/",
+    },
   ]
 
   return (
