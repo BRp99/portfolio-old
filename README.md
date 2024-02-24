@@ -2,8 +2,8 @@
 
 Welcome to my portfolio! Here you will find information about me and a list of projects I create as a Frontend Developer.
 
-![Portfolio Image 1](./img/portfolio_dark.png)
-![Portfolio Image 2](./img/portfolio_light.png)
+![Portfolio Image 1](./public/img/portfolio_dark.png)
+![Portfolio Image 2](./public/img/portfolio_light.png)
 
 ## Learning
 
