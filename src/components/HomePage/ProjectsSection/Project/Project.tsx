@@ -2,8 +2,13 @@ import styles from "./Project.module.css"
 import ProjectButton from "./ProjectButton/ProjectButton"
 import { useThemeContext } from "../../../context/ThemeContext"
 
-interface Props {
-  imgURL: string
+type Media = {
+  type: "image" | "video"
+  url: string
+}
+
+export interface ProjectProps {
+  media: Media
   title: string
   tags?: string[]
   description: string | JSX.Element
@@ -11,13 +16,13 @@ interface Props {
   demoURL?: string | null
 }
 
-export default function Project({ imgURL, title, tags = [], description, codeURL, demoURL }: Props) {
+export default function Project({ media, title, tags = [], description, codeURL, demoURL }: ProjectProps) {
   const { darkMode } = useThemeContext()
 
   return (
     <div className={`${styles.container} ${darkMode ? styles.dark_theme : ""}`}>
       <div className={styles.img_container}>
-        <img className={styles.image} src={imgURL} alt={title} />
+        <img className={styles.image} src={media.url} alt={title} />
       </div>
       <div className={styles.details}>
         <h3 className={styles.title}>{title}</h3>

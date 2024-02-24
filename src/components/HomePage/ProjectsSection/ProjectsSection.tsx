@@ -1,14 +1,70 @@
 import { useThemeContext } from "../../context/ThemeContext"
-import Project from "./Project/Project"
+import Project, { ProjectProps } from "./Project/Project"
 import styles from "./ProjectsSection.module.css"
 
 export default function ProjectsSection() {
   const { darkMode } = useThemeContext()
 
-  const projectsData = [
+  const projectsData: ProjectProps[] = [
     {
-      id: 1,
-      imgURL: "./img/MarketFusion.png",
+      media: { type: "video", url: darkMode ? "./videos/bask2.gif" : "./videos/bask1.gif" },
+
+      title: "Body Pose Detection",
+      tags: ["Computer Vision", "OpenCv", "MediaPipe", "Detection Pose"],
+      description: (
+        <>
+          <p>With this project I acquired some knowledge about the principles and techniques of computer vision, like:</p>
+          <p>
+            <ul>
+              <li>Track different parts of the body;</li>
+              <li>
+                <p>Identify different reference points in these parts of the body;</p>
+                <li>
+                  <p>Use reference points to create the complete body posture.</p>
+                </li>
+              </li>
+            </ul>
+          </p>
+        </>
+      ),
+      codeURL: "https://github.com/BRp99/body-pose-detection",
+    },
+    {
+      media: { type: "image", url: "./img/graphic.png" },
+      title: "CryptoScrape: web scraping cryptocurrency price changes",
+      tags: ["CoinMarketCap", "Web Scraping", "Python", "BeautifulSoup"],
+      description: (
+        <>
+          <p>My next project is continuing my Python journey, focused on web scraping to extract cryptocurrency price data from CoinMarketCap.</p>
+          <p>
+            Initially, data extraction is performed statically using BeautifulSoup for web scraping and pandas for data manipulation and matplotlib
+            for visualization.
+          </p>
+          <p> Later, there are plans to explore dynamic data loading using Selenium.</p>
+        </>
+      ),
+      codeURL: "https://github.com/BRp99/cryptoScrape-web-scraping-cryptocurrency-price-changes",
+    },
+    {
+      media: { type: "image", url: "./img/advent-of-code.png" },
+      title: "Advent of Code 2023",
+      tags: ["Python", "Advent of Code 2023", "Posts", "GitHub"],
+      description: (
+        <>
+          <p>
+            In this project I create posts dedicated to solving the Advent of Code 2023 challenges, where I can improve my skills in problem solving,
+            programming logic and algorithms.
+          </p>
+          <p>
+            One of the fundamental decisions for this project is the choice of programming language, and I am determined to learn Python, as it can
+            open doors to a wide range of applications, from web development to data analysis and artificial intelligence.
+          </p>
+        </>
+      ),
+      codeURL: "https://github.com/BRp99/advent-of-code-2023",
+    },
+    {
+      media: { type: "image", url: "./img/MarketFusion.png" },
       title: "あ - it's the simple things",
       tags: ["E-commerce", "API", "React", "Typescript", "Cypress"],
       description: (
@@ -29,9 +85,9 @@ export default function ProjectsSection() {
       demoURL: "https://buy-simple-things.vercel.app/",
     },
     {
-      id: 2,
-      imgURL: !darkMode ? "./img/portfolio_light.png" : "./img/portfolio_dark.png",
+      media: { type: "image", url: darkMode ? "./img/portfolio_dark.png" : "./img/portfolio_light.png" },
       title: "This Portfolio",
+
       tags: ["Portfolio", "React"],
       description: (
         <>
@@ -46,70 +102,14 @@ export default function ProjectsSection() {
       codeURL: "https://github.com/BRp99/BRp99.github.io",
       demoURL: "https://brp99.github.io/",
     },
-    {
-      id: 3,
-      imgURL: "./img/advent-of-code.png",
-      title: "Advent of Code 2023",
-      tags: ["Python", "Advent of Code 2023", "Posts", "GitHub"],
-      description: (
-        <>
-          <p>
-            In this project I create posts dedicated to solving the Advent of Code 2023 challenges, where I can improve my skills in problem solving,
-            programming logic and algorithms.
-          </p>
-          <p>
-            One of the fundamental decisions for this project is the choice of programming language, and I am determined to learn Python, as it can
-            open doors to a wide range of applications, from web development to data analysis and artificial intelligence.
-          </p>
-        </>
-      ),
-      codeURL: "https://github.com/BRp99/advent-of-code-2023",
-    },
-    {
-      id: 4,
-      imgURL: "./img/graphic.png",
-      title: "CryptoScrape: web scraping cryptocurrency price changes",
-      tags: ["CoinMarketCap", "Web Scraping", "Python", "BeautifulSoup"],
-      description: (
-        <>
-          <p>My next project is continuing my Python journey, focused on web scraping to extract cryptocurrency price data from CoinMarketCap.</p>
-          <p>
-            Initially, data extraction is performed statically using BeautifulSoup for web scraping and pandas for data manipulation and matplotlib
-            for visualization.
-          </p>
-          <p> Later, there are plans to explore dynamic data loading using Selenium.</p>
-        </>
-      ),
-      codeURL: "https://github.com/BRp99/cryptoScrape-web-scraping-cryptocurrency-price-changes",
-    },
-    {
-      id: 5,
-      imgURL: "./img/valentine.png",
-      title: "Valentine Proposal",
-      tags: ["Google Analytics", "React-ga", "UX"],
-      description: (
-        <>
-          <p>
-            I take advantage of the arrival of Valentine's Day to create a page where I can share this project with my friends and they send it to
-            their valentines.
-          </p>
-          <p>
-            The project will only be visible from midnight on February 13, 2024 to the 14th.
-            <p>The main objective is use Google Analytics tool to understand user behavior, to personalize user experience {"(UX)."}</p>
-          </p>
-        </>
-      ),
-      codeURL: "https://github.com/BRp99/valentine-proposal",
-      demoURL: "https://valentine-proposal-nine.vercel.app/",
-    },
   ]
 
   return (
     <div id="projects" className={styles.container}>
       <h2 className={styles.title}>Projects</h2>
       <div className={styles.projects}>
-        {projectsData.map((project, id, title) => (
-          <Project key={`${id} ${title}`} {...project} />
+        {projectsData.map((project) => (
+          <Project key={project.title} {...project} />
         ))}
       </div>
     </div>
