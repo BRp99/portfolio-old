@@ -7,7 +7,7 @@ Welcome to my portfolio! Here you will find information about me and a list of p
 
 ## Learning
 
-I created this project to show my work developed throughout this year, but also to improve other skills, for example:
+I created this project to show my work developed throughout the year 2023, but also to improve other skills, for example:
 
 - Make each component have its own responsibility;
 - Improve the design system and use dark mode for the first time;
