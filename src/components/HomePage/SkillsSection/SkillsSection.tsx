@@ -18,8 +18,10 @@ export default function SkillsSection() {
           This portfolio is a small window into my self-taught journey ever since.
         </div>
         <div>
-          Now, when I'm not busy with implementing React components and squishing bugs, you can find me galloping through the fields on top of a
-          horse, walking my dog Pantufa, spending time with family and friends, or baking (allegedly) delicious cakes with a hint of secret code!
+          {/* Now, when I'm not busy with implementing React components and squishing bugs, you can find me galloping through the fields on top of a 
+          horse, walking my dog Pantufa, spending time with family and friends, or baking (allegedly) delicious cakes with a hint of secret code!*/}
+          I'm currently looking for an entry-level industry position in frontend development. In the menatime, I'm improving my Python programming
+          skills with AI working at SensoMatt.
         </div>
       </div>
       <div className={styles.skills}>
