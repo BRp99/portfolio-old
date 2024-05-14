@@ -7,6 +7,25 @@ export default function ProjectsSection() {
 
   const projectsData: ProjectProps[] = [
     {
+      media: { type: "image", url: "./img/connectify.png" },
+      title: "Connectify",
+      tags: ["Next.js", "Blocknative", "Web3-Onboard", "Ethers.js", "TypeScript"],
+      description: (
+        <>
+          <p> This is a demo of a project where I explored using Next.js with TypeScript, combined with Blocknative and Web3-Onboard.</p>
+          <ul>
+            <li>Through this project, I learned how to connect Ethereum wallets using the ethers.js library;</li>
+            <li>
+              I explored how to integrate secure and efficient authentication with Blocknative, while taking advantage of TypeScript's powerful typing
+              system to ensure more robust and error-free code.
+            </li>
+          </ul>
+        </>
+      ),
+      codeURL: "https://github.com/BRp99/web3-onboard-nextjs",
+      demoURL: "https://web3-onboard-nextjs-brp99s-projects.vercel.app/",
+    },
+    {
       media: { type: "video", url: darkMode ? "./videos/bask2.gif" : "./videos/bask1.gif" },
 
       title: "Body Pose Detection",
@@ -28,6 +47,27 @@ export default function ProjectsSection() {
         </>
       ),
       codeURL: "https://github.com/BRp99/body-pose-detection",
+    },
+    {
+      media: { type: "image", url: "./img/MarketFusion.png" },
+      title: "あ - it's the simple things",
+      tags: ["E-commerce", "API", "React", "Typescript", "Cypress"],
+      description: (
+        <>
+          <p>I wanted to build an ecommerce application where I could learn to write code based on a reusable and scalable components.</p>
+          <p>
+            The application's features are as follows:
+            <ul>
+              <li>adding products to the cart and favorites;</li>
+              <li>choose quantities;</li>
+              <li>authentication with Auth0;</li>
+              <li>search and navigation between application pages.</li>
+            </ul>
+          </p>
+        </>
+      ),
+      codeURL: "https://github.com/BRp99/e-commerce-app.git",
+      demoURL: "https://buy-simple-things.vercel.app/",
     },
     {
       media: { type: "image", url: "./img/graphic.png" },
@@ -62,27 +102,6 @@ export default function ProjectsSection() {
         </>
       ),
       codeURL: "https://github.com/BRp99/advent-of-code-2023",
-    },
-    {
-      media: { type: "image", url: "./img/MarketFusion.png" },
-      title: "あ - it's the simple things",
-      tags: ["E-commerce", "API", "React", "Typescript", "Cypress"],
-      description: (
-        <>
-          <p>I wanted to build an ecommerce application where I could learn to write code based on a reusable and scalable components.</p>
-          <p>
-            The application's features are as follows:
-            <ul>
-              <li>adding products to the cart and favorites;</li>
-              <li>choose quantities;</li>
-              <li>authentication with Auth0;</li>
-              <li>search and navigation between application pages.</li>
-            </ul>
-          </p>
-        </>
-      ),
-      codeURL: "https://github.com/BRp99/e-commerce-app.git",
-      demoURL: "https://buy-simple-things.vercel.app/",
     },
     {
       media: { type: "image", url: darkMode ? "./img/portfolio_dark.png" : "./img/portfolio_light.png" },
