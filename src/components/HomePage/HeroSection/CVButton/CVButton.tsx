@@ -6,7 +6,7 @@ export default function CVButton() {
 
   return (
     <div className={`${styles.container} ${darkMode ? styles.dark_theme : ""}`}>
-      <a className={styles.call_to_action} href="https://brp99.github.io/CV__Beatriz_Pereira.pdf">
+      <a className={styles.call_to_action} href="https://brp99.github.io/CV.pdf">
         <div className={styles.call_to_action_hover}></div>
         <span className={styles.text}> See my CV </span>
       </a>
