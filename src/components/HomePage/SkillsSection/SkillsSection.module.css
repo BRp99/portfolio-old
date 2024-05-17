@@ -9,14 +9,15 @@
 }
 
 .description {
-  line-height: 1.5rem;
+  line-height: 1.8rem;
+  /* line-height: 1.5rem; */
   text-align: left;
 }
 
-.description > div:nth-child(even),
+/* .description > div:nth-child(even),
 .description > div:nth-child(odd) {
   padding-top: 1.5rem;
-}
+} */
 
 .skills {
   display: flex;

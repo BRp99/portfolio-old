@@ -9,20 +9,20 @@ export default function SkillsSection() {
       <h2 className={styles.title}>Skills</h2>
       <div className={styles.description}>
         <div>
-          I spent five years in University to earn my bachelor's and master's in sports science. After half a decade of learning about athletic
-          performance of the human body, I worked at gyms, and did research into how physical exercise plays a role in staving off cognitive decline
-          in old people. Whilst doing statistics for the research project, I became interested in how computers works.
+          I spent five years in University to earn my bachelor's and master's in sports science.
+          {/* After half a decade of learning about athletic performance of the human body. */}
+          {/* I worked at gyms, and did research into how physical exercise plays a role in staving off cognitive decline
+          in old people. */}
         </div>
+        <div> While doing statistics for the research project, I became interested in how computers works.</div>
+
         <div>
-          In January 2023, I pivoted and decided to take a break from my academic and professional background in sports science to learn programming.
-          This portfolio is a small window into my self-taught journey ever since.
-        </div>
-        <div>
+          {/* In January 2023, I pivoted and decided to take a break from my academic and professional background in sports science to learn programming.
+          This portfolio is a small window into my self-taught journey ever since. */}
           {/* Now, when I'm not busy with implementing React components and squishing bugs, you can find me galloping through the fields on top of a 
           horse, walking my dog Pantufa, spending time with family and friends, or baking (allegedly) delicious cakes with a hint of secret code!*/}
-          I'm currently looking for an entry-level industry position in frontend development. In the menatime, I'm improving my Python programming
-          skills with AI working at SensoMatt.
         </div>
+        <div>From 2023 until January 2024 I faced challenges. Now, I'm happy to announce that I've landed my first role as a software engineer!</div>
       </div>
       <div className={styles.skills}>
         <div>{nextIcon} Next JS</div>
