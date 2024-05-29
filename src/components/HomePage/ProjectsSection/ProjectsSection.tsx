@@ -6,25 +6,25 @@ export default function ProjectsSection() {
   const { darkMode } = useThemeContext()
 
   const projectsData: ProjectProps[] = [
-    {
-      media: { type: "image", url: "./img/connectify.png" },
-      title: "Connectify",
-      tags: ["Next.js", "Blocknative", "Web3-Onboard", "Ethers.js", "TypeScript"],
-      description: (
-        <>
-          <p> This is a demo of a project where I explored using Next.js with TypeScript, combined with Blocknative and Web3-Onboard.</p>
-          <ul>
-            <li>Through this project, I learned how to connect Ethereum wallets using the ethers.js library;</li>
-            <li>
-              I explored how to integrate secure and efficient authentication with Blocknative, while taking advantage of TypeScript's powerful typing
-              system to ensure more robust and error-free code.
-            </li>
-          </ul>
-        </>
-      ),
-      codeURL: "https://github.com/BRp99/web3-onboard-nextjs",
-      demoURL: "https://web3-onboard-nextjs-brp99s-projects.vercel.app/",
-    },
+    // {
+    //   media: { type: "image", url: "./img/connectify.png" },
+    //   title: "Connectify",
+    //   tags: ["Next.js", "Blocknative", "Web3-Onboard", "Ethers.js", "TypeScript"],
+    //   description: (
+    //     <>
+    //       <p> This is a demo of a project where I explored using Next.js with TypeScript, combined with Blocknative and Web3-Onboard.</p>
+    //       <ul>
+    //         <li>Through this project, I learned how to connect Ethereum wallets using the ethers.js library;</li>
+    //         <li>
+    //           I explored how to integrate secure and efficient authentication with Blocknative, while taking advantage of TypeScript's powerful typing
+    //           system to ensure more robust and error-free code.
+    //         </li>
+    //       </ul>
+    //     </>
+    //   ),
+    //   codeURL: "https://github.com/BRp99/web3-onboard-nextjs",
+    //   demoURL: "https://web3-onboard-nextjs-brp99s-projects.vercel.app/",
+    // },
     {
       media: { type: "video", url: darkMode ? "./videos/bask2.gif" : "./videos/bask1.gif" },
 
